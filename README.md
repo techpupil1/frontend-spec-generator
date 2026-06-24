@@ -34,12 +34,19 @@
 
 ## 安装
 
-### 方式一：npm 全局安装（推荐）
+### 方式一：skills CLI（推荐）
 
-自动部署到所有已安装平台：
+使用 `skills` CLI 从 GitHub 仓库安装，自动部署到所有已检测到的 AI 编程工具：
 
 ```bash
-npm install -g frontend-spec-generator
+# 从 GitHub 仓库安装
+npx skills add https://github.com/techpupil1/frontend-spec-generator --skill frontend-spec-generator
+
+# 或使用 shorthand
+npx skills add techpupil1/frontend-spec-generator --skill frontend-spec-generator
+
+# 全局安装（安装到用户目录，所有项目可用）
+npx skills add techpupil1/frontend-spec-generator --skill frontend-spec-generator -g
 ```
 
 安装完成后重启 IDE 即可使用。
@@ -47,14 +54,14 @@ npm install -g frontend-spec-generator
 ### 方式二：OpenSkills（跨平台通用）
 
 ```bash
-npx openskills install your-username/frontend-spec-generator
+npx openskills install techpupil1/frontend-spec-generator
 npx openskills sync
 ```
 
 ### 方式三：Claude Code 插件市场
 
 ```
-/plugin marketplace add your-username/frontend-spec-generator
+/plugin marketplace add techpupil1/frontend-spec-generator
 /plugin install frontend-spec-generator
 /reload-plugins
 ```
@@ -62,7 +69,7 @@ npx openskills sync
 ### 方式四：手动安装
 
 ```bash
-git clone https://github.com/your-username/frontend-spec-generator.git
+git clone https://github.com/techpupil1/frontend-spec-generator.git
 ```
 
 按需复制到对应平台目录：
@@ -92,12 +99,12 @@ git clone https://github.com/your-username/frontend-spec-generator.git
 
 ```
 frontend-spec-generator/
-├── .claude-plugin/          # Claude Code 插件元数据
+── .claude-plugin/          # Claude Code 插件元数据
 ├── .claude/commands/        # Claude Code 斜杠命令
 ├── .cursor/commands/        # Cursor 斜杠命令
 ├── .gemini/commands/        # Gemini CLI 命令
 ├── .codex/agents/           # Codex Agent 配置
-├── .windsurfrules           # Windsurf 规则
+── .windsurfrules           # Windsurf 规则
 ├── AGENTS.md                # Codex/Qoder 通用入口
 ├── scripts/install.js       # npm 安装部署脚本
 ├── skills/
@@ -108,7 +115,7 @@ frontend-spec-generator/
 │       ├── references/      # 详细流程参考
 │       └── examples/        # 示例输入与输出
 ├── package.json
-└── README.md
+── README.md
 ```
 
 ## 核心原则
