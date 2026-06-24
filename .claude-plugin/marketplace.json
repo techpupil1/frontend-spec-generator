@@ -1,0 +1,17 @@
+{
+  "name": "frontend-spec-generator-marketplace",
+  "owner": {
+    "name": "frontend-spec-generator-contributors"
+  },
+  "plugins": [
+    {
+      "name": "frontend-spec-generator",
+      "source": {
+        "source": "github",
+        "repo": "your-username/frontend-spec-generator"
+      },
+      "description": "将产品想法或已有前端项目整理为用户确认过的八大模块前端规范",
+      "version": "1.0.0"
+    }
+  ]
+}

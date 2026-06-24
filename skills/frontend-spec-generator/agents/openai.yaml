@@ -1,4 +1,4 @@
-﻿interface:
+interface:
   display_name: "前端规范生成"
   short_description: "将产品想法或已有前端项目整理为用户确认过的八大模块前端规范。"
   default_prompt: "Use $frontend-spec-generator 为我的产品生成一份前端规范。"

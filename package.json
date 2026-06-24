@@ -1,0 +1,47 @@
+{
+  "name": "frontend-spec-generator",
+  "version": "1.0.0",
+  "description": "将产品想法或已有前端项目整理为用户确认过的八大模块前端规范，支持 TRAE/Claude Code/Cursor/Codex/Windsurf/Gemini CLI/Qoder 等主流 AI 编程智能体",
+  "main": "skills/frontend-spec-generator/SKILL.md",
+  "files": [
+    "skills/**/*",
+    "scripts/**/*",
+    ".claude-plugin/**/*",
+    ".claude/**/*",
+    ".cursor/**/*",
+    ".gemini/**/*",
+    ".codex/**/*",
+    ".windsurfrules",
+    "AGENTS.md"
+  ],
+  "keywords": [
+    "skill",
+    "claude-code",
+    "trae",
+    "cursor",
+    "codex",
+    "windsurf",
+    "gemini-cli",
+    "qoder",
+    "frontend",
+    "spec",
+    "specification"
+  ],
+  "author": {
+    "name": "frontend-spec-generator-contributors"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/frontend-spec-generator"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install.js",
+    "changeset": "changeset",
+    "version": "changeset version"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.30.0"
+  }
+}

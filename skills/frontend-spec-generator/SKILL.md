@@ -1,4 +1,4 @@
-﻿---
+---
 name: frontend-spec-generator
 description: "Generate or refine a frontend specification through guided product discovery, competitor research, and step-by-step confirmation across eight modules: visual style, technical approach, UI component library, directory structure, module boundaries, reuse rules, styling system, and implementation plan. Use when Codex needs to turn a vague product idea or an existing frontend codebase into a user-confirmed frontend specification, especially for non-technical users who need tradeoffs explained by outcome instead of jargon."
 ---
@@ -9,7 +9,7 @@ description: "Generate or refine a frontend specification through guided product
 
 按以下顺序执行：
 
-1. 先判断目标是“已有前端项目”还是“空项目/新项目”。
+1. 先判断目标是"已有前端项目"还是"空项目/新项目"。
 2. 如果是已有项目，阅读 [references/existing-project.md](references/existing-project.md)。
 3. 如果是空项目/新项目，阅读 [references/empty-project.md](references/empty-project.md)。
 4. 在输出最终规范前，阅读 [references/eight-modules.md](references/eight-modules.md)。

@@ -1,0 +1,7 @@
+[agent]
+name = "frontend-spec-generator"
+description = "将产品想法或已有前端项目整理为用户确认过的八大模块前端规范"
+model = "default"
+
+[agent.instructions]
+file = "../skills/frontend-spec-generator/SKILL.md"

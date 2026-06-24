@@ -1,0 +1,9 @@
+{
+  "name": "frontend-spec-generator",
+  "version": "1.0.0",
+  "description": "将产品想法或已有前端项目整理为用户确认过的八大模块前端规范，支持 TRAE/Claude Code/Cursor/Codex/Windsurf/Gemini CLI/Qoder 等主流 AI 编程智能体",
+  "author": {
+    "name": "frontend-spec-generator-contributors"
+  },
+  "license": "MIT"
+}
